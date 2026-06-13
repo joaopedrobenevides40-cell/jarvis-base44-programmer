@@ -1,0 +1,29 @@
+app = "jarvis-backend"
+primary_region = "gru"
+
+[build]
+  dockerfile = "Dockerfile"
+
+[env]
+  PORT = "8000"
+
+[http_service]
+  internal_port = 8000
+  force_https = true
+  auto_stop_machines = true
+  auto_start_machines = true
+  min_machines_running = 0
+
+[[vm]]
+  memory = "512mb"
+  cpu_kind = "shared"
+  cpus = 1
+
+# Variáveis que você precisa configurar:
+# fly secrets set OPENAI_API_KEY="sk-..."
+# fly secrets set SUPABASE_URL="https://xxx.supabase.co"
+# fly secrets set SUPABASE_SERVICE_KEY="eyJ..."
+# fly secrets set BASE44_APP_ID="seu_app_id"
+# fly secrets set BASE44_TOKEN="seu_token_base44"
+# fly secrets set E2B_API_KEY="e2b_..."
+# fly secrets set JARVIS_API_KEY="chave_secreta_sua"
