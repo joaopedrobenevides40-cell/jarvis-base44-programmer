@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">J.A.R.V.I.S</string>
+    <string name="accessibility_service_description">J.A.R.V.I.S precisa de acessibilidade para ler a tela, interagir com apps e executar comandos em linguagem natural.</string>
+    <string name="overlay_notification">J.A.R.V.I.S está ativo</string>
+    <string name="overlay_notification_detail">Toque para abrir o assistente</string>
+</resources>
