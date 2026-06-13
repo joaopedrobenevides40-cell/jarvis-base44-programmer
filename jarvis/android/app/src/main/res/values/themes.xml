@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.Jarvis" parent="Theme.Material3.Dark.NoActionBar">
+        <item name="colorPrimary">#00D4FF</item>
+        <item name="colorPrimaryVariant">#1E40AF</item>
+        <item name="colorOnPrimary">#000000</item>
+        <item name="colorSecondary">#FFB800</item>
+        <item name="colorBackground">#0A0E1A</item>
+        <item name="android:colorBackground">#0A0E1A</item>
+        <item name="android:statusBarColor">#0A0E1A</item>
+        <item name="android:navigationBarColor">#0A0E1A</item>
+    </style>
+</resources>
